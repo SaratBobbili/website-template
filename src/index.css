@@ -11,6 +11,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
 .section-container {
   max-width: 95%;
   margin: 0 auto;
@@ -61,13 +65,13 @@ a:hover {
     --background: 50 23% 95%;
     --foreground: 60 3% 15%;
     --button: 49 27% 92%;
-    --card: 0 0% 100%;
+    --card: 48 25% 92.2%;
     --card-foreground: 20 14.3% 4.1%;
     --popover: 0 0% 100%;
     --popover-foreground: 20 14.3% 4.1%;
     --primary: 15 52% 58%;
     --primary-foreground: 50 23% 95%;
-    --secondary: 240 56% 70%;
+    --secondary: 251 40% 45.1%;
     --secondary-foreground: 50 23% 95%;
     --muted: 60 4.8% 95.9%;
     --muted-foreground: 25 5.3% 44.7%;
@@ -88,8 +92,8 @@ a:hover {
   .dark {
     --background: 60 3% 15%;
     --foreground: 50 23% 95%;
-    --card: 20 14.3% 4.1%;
-    --card-foreground: 60 9.1% 97.8%;
+    --card: 60 2.1% 18.4%;
+    --card-foreground: 60 2.5% 23.3%;
     --popover: 20 14.3% 4.1%;
     --popover-foreground: 60 9.1% 97.8%;
     --muted: 12 6.5% 15.1%;
