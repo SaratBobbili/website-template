@@ -2,6 +2,7 @@ import { useTheme } from 'next-themes'
 import './App.css'
 import Home from './components/Home'
 import { Button } from './components/ui/button'
+import WorkExperienceTimeline from './components/Experience'
 
 function ThemeToggle() {
   const { theme, setTheme } = useTheme()
@@ -29,6 +30,7 @@ function App() {
         <ThemeToggle />
       </div>
       <Home />
+      <WorkExperienceTimeline />
     </div>
   )
 }
