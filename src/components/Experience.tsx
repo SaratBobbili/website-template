@@ -144,6 +144,7 @@ const WorkExperienceTimeline: React.FC = () => {
                 { name: 'Python', icon: 'python' },
                 { name: 'Linux', icon: 'linux' },
                 { name: 'PyTorch', icon: 'pytorch' },
+                { name: 'Hugging Face', icon: 'huggingface'},
                 { name: 'MongoDB', icon: 'mongodb' },
             ],
         },
@@ -174,6 +175,7 @@ const WorkExperienceTimeline: React.FC = () => {
             skills: [
                 { name: '.NET', icon: 'dotnet' },
                 { name: 'Angular', icon: 'angular' },
+                { name: 'TypeScript', icon: 'typescript'}
             ],
         },
     ];
