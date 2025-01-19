@@ -4,7 +4,6 @@
 
 :root {
   font-family: Lora;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -66,7 +65,7 @@ a:hover {
     --foreground: 60 3% 15%;
     --button: 49 27% 92%;
     --card: 48 25% 92.2%;
-    --card-foreground: 20 14.3% 4.1%;
+    --card-foreground: 60 3% 15%;
     --popover: 0 0% 100%;
     --popover-foreground: 20 14.3% 4.1%;
     --primary: 15 52% 58%;
@@ -93,7 +92,7 @@ a:hover {
     --background: 60 3% 15%;
     --foreground: 50 23% 95%;
     --card: 60 2.1% 18.4%;
-    --card-foreground: 60 2.5% 23.3%;
+    --card-foreground: 50 23% 95%;
     --popover: 20 14.3% 4.1%;
     --popover-foreground: 60 9.1% 97.8%;
     --muted: 12 6.5% 15.1%;

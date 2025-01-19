@@ -3,6 +3,7 @@ import './App.css'
 import Home from './components/Home'
 import { Button } from './components/ui/button'
 import WorkExperienceTimeline from './components/Experience'
+import ProjectsList from './components/Projects'
 
 function ThemeToggle() {
   const { theme, setTheme } = useTheme()
@@ -31,6 +32,7 @@ function App() {
       </div>
       <Home />
       <WorkExperienceTimeline />
+      <ProjectsList />
     </div>
   )
 }
