@@ -4,6 +4,7 @@ import Home from './components/Home'
 import { Button } from './components/ui/button'
 import WorkExperienceTimeline from './components/Experience'
 import ProjectsList from './components/Projects'
+import Footer from './components/Footer'
 
 function ThemeToggle() {
   const { theme, setTheme } = useTheme()
@@ -33,6 +34,7 @@ function App() {
       <Home />
       <WorkExperienceTimeline />
       <ProjectsList />
+      <Footer />
     </div>
   )
 }
