@@ -1,11 +1,12 @@
 import Header from './utils/Header';
 import { Button } from './ui/button';
+import resume from '../assets/DylanHarden.pdf'
 
 const Home = () => {
 
     return (
         <>
-            <section id="Home" className="pb-64">
+            <section id="Home" className="h-screen">
                 <div className="section-container flex-col justify-center md:flex-row md:flex md:justify-between items-center pt-24 md:pt-32">
                     <div className="text-center md:text-left">
                         <h4 className="text-xl sm:text-2xl">Howdy, my name is</h4>
@@ -14,9 +15,11 @@ const Home = () => {
                             I’m a CS grad from Texas A&M who is interested in building real world AI systems.
                         </h4>
                         <div className="mt-4 flex flex-col sm:flex-row items-center max-w-fit md:max-w-none mx-auto w-100">
-                            <Button asChild className='w-36 h-10 sm:w-44 sm:h-12 text-md sm:text-xl'>
-                                <a href="">Resume</a>
-                            </Button>
+                            <a href={resume} download='DylanHarden.pdf'>
+                                <Button asChild className='w-36 h-10 sm:w-44 sm:h-12 text-md sm:text-xl'>
+                                    <p>Resume</p>
+                                </Button>
+                            </a>
                             <div className="flex gap-2 mt-2 sm:mt-0 sm:ml-8">
                                 <a className='w-100 h-100' href='https://www.linkedin.com/in/dylan-harden/' target='_blank'>
                                     <Button size="icon" variant="outline" aria-label="LinkedIn">
