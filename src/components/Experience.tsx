@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useCallback } from 'react';
 import Header from './utils/Header';
 import charlesSchwab from '../assets/charlesschwab.png';
 import resideo from '../assets/resideo.jpg';
@@ -95,13 +95,13 @@ interface TimelineProps {
 const Timeline: React.FC<TimelineProps> = ({ experiences, headerText }) => {
     const [dotPositions, setDotPositions] = useState<number[]>([]);
 
-    const updateDotPosition = (index: number, position: number) => {
+    const updateDotPosition = useCallback((index: number, position: number) => {
         setDotPositions((prev) => {
             const updated = [...prev];
             updated[index] = position;
             return updated;
         });
-    };
+    }, []);
 
     return (
         <>
