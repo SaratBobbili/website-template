@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="flex items-center gap-2">
           <span>© 2025 Dylan Harden</span>
           <span>•</span>
-          <span>Released under MIT License</span>
+          <span>Code released under <a className="underline" href="https://github.com/Dylan-Harden3/Dylan-Harden3.github.io" target="_blank">MIT License</a></span>
         </div>
         <div className="flex items-center gap-2">
           <span>Design inspired by Anthropic Design System</span>
