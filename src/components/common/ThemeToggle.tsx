@@ -1,9 +1,7 @@
 import { useTheme } from 'next-themes'
 import { Button } from './ui/button'
 
-interface ThemeToggleProps {}
-
-const ThemeToggle: React.FC<ThemeToggleProps> = (): JSX.Element => {
+const ThemeToggle: React.FC = (): JSX.Element => {
   const { theme, setTheme } = useTheme()
 
   const toggleTheme = (): void => {
