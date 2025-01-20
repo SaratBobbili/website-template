@@ -1,6 +1,6 @@
-import Header from './utils/Header';
-import { Button } from './ui/button';
-import resume from '../assets/DylanHarden.pdf'
+import Header from '../layout/Header';
+import { Button } from '../common/ui/button';
+import resume from '../../assets/DylanHarden.pdf'
 
 interface HomeProps {}
 

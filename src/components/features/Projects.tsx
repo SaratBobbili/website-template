@@ -1,14 +1,14 @@
-import { Card, CardContent, CardHeader, CardFooter } from "@/components/ui/card";
-import { Button } from "./ui/button";
-import Chip, { Skill } from "./utils/Chip";
-import storyllamas from '../assets/storyllamas.jpg'
-import llama32c from '../assets/llama32c.jpg'
-import pydetectgpt from '../assets/pydetectgpt.png'
-import capstone from '../assets/capstone.jpg'
-import horticulture from '../assets/horticulture.jpg'
-import Header from "./utils/Header";
+import { Card, CardContent, CardHeader, CardFooter } from "../common/ui/card";
+import { Button } from "../common/ui/button";
+import Chip, { Skill } from "../common/Chip";
+import storyllamas from '../../assets/storyllamas.jpg'
+import llama32c from '../../assets/llama32c.jpg'
+import pydetectgpt from '../../assets/pydetectgpt.png'
+import capstone from '../../assets/capstone.jpg'
+import horticulture from '../../assets/horticulture.jpg'
+import Header from "../layout/Header";
 import { useState } from 'react';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../common/ui/tooltip";
 
 interface ProjectCardProps {
     image: string;

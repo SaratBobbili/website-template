@@ -1,10 +1,10 @@
 import { useTheme } from 'next-themes'
-import './App.css'
-import Home from './components/Home'
-import { Button } from './components/ui/button'
-import WorkExperienceTimeline from './components/Experience'
-import ProjectsList from './components/Projects'
-import Footer from './components/Footer'
+import './styles/App.css'
+import Home from './components/features/Home'
+import { Button } from './components/common/ui/button'
+import WorkExperienceTimeline from './components/features/Experience'
+import ProjectsList from './components/features/Projects'
+import Footer from './components/layout/Footer'
 
 interface ThemeToggleProps {}
 

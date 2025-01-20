@@ -1,10 +1,10 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import Header from './utils/Header';
-import charlesSchwab from '../assets/charlesschwab.png';
-import resideo from '../assets/resideo.jpg';
-import samsung from '../assets/samsung.png';
-import tamu from '../assets/tamu.png';
-import Chip, { Skill } from './utils/Chip'
+import Header from '../layout/Header';
+import charlesSchwab from '../../assets/charlesschwab.png';
+import resideo from '../../assets/resideo.jpg';
+import samsung from '../../assets/samsung.png';
+import tamu from '../../assets/tamu.png';
+import Chip, { Skill } from '../common/Chip'
 
 interface Experience {
     date: string;
