@@ -1,7 +1,8 @@
 import React from 'react';
+import { SECTION_HEADERS } from '../../constants';
 
 interface HeaderProps {
-    text: string;
+    text: keyof typeof SECTION_HEADERS | string;
 }
 
 const Header: React.FC<HeaderProps> = ({ text }): JSX.Element => {
