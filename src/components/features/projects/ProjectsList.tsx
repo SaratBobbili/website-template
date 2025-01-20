@@ -8,8 +8,8 @@ import pydetectgpt from '../../../assets/pydetectgpt.png'
 import capstone from '../../../assets/capstone.jpg'
 import horticulture from '../../../assets/horticulture.jpg'
 
-const ProjectsList: React.FC = () => {
-    const [showAll, setShowAll] = useState(false);
+const ProjectsList: React.FC = (): JSX.Element => {
+    const [showAll, setShowAll] = useState<boolean>(false);
     
     const projects: ProjectCardProps[] = [
         {

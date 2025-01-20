@@ -25,17 +25,17 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({
     skills,
     onHeightChange,
     index
-}) => {
+}): JSX.Element => {
     const ref = useRef<HTMLDivElement>(null);
 
-    useEffect(() => {
+    useEffect((): void => {
         if (ref.current) {
             onHeightChange(index, ref.current.offsetTop + ref.current.offsetHeight / 2);
         }
     }, [onHeightChange, index]);
 
-    const regularDetails = details?.filter(detail => !detail.includes('"'));
-    const testimonial = details?.find(detail => detail.includes('"'));
+    const regularDetails = details?.filter((detail: string): boolean => !detail.includes('"'));
+    const testimonial = details?.find((detail: string): boolean => detail.includes('"'));
 
     return (
         <div ref={ref} className="relative sm:pl-8 mb-8 font-inter">

@@ -3,10 +3,10 @@ import { Button } from './ui/button'
 
 interface ThemeToggleProps {}
 
-const ThemeToggle: React.FC<ThemeToggleProps> = () => {
+const ThemeToggle: React.FC<ThemeToggleProps> = (): JSX.Element => {
   const { theme, setTheme } = useTheme()
 
-  const toggleTheme = () => {
+  const toggleTheme = (): void => {
     setTheme(theme === 'light' ? 'dark' : 'light')
   }
 

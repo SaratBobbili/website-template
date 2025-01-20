@@ -7,11 +7,11 @@ interface TimelineProps {
     headerText: string;
 }
 
-const Timeline: React.FC<TimelineProps> = ({ experiences, headerText }) => {
+const Timeline: React.FC<TimelineProps> = ({ experiences, headerText }): JSX.Element => {
     const [dotPositions, setDotPositions] = useState<number[]>([]);
 
-    const updateDotPosition = useCallback((index: number, position: number) => {
-        setDotPositions((prev) => {
+    const updateDotPosition = useCallback((index: number, position: number): void => {
+        setDotPositions((prev: number[]): number[] => {
             const updated = [...prev];
             updated[index] = position;
             return updated;
