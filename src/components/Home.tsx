@@ -2,7 +2,9 @@ import Header from './utils/Header';
 import { Button } from './ui/button';
 import resume from '../assets/DylanHarden.pdf'
 
-const Home = () => {
+interface HomeProps {}
+
+const Home: React.FC<HomeProps> = () => {
 
     return (
         <>
@@ -12,7 +14,7 @@ const Home = () => {
                         <h4 className="text-xl sm:text-2xl">Howdy, my name is</h4>
                         <Header text="Dylan Harden." />
                         <h4 className="text-center my-4 md:my-2 md:text-left text-xl sm:text-2xl lg:text-3xl lg:pb-4 max-w-[90%] sm:max-w-[70%] mx-auto md:mx-0">
-                            I’m a CS grad from Texas A&M who is interested in building real world AI systems.
+                            I'm a CS grad from Texas A&M who is interested in building real world AI systems.
                         </h4>
                         <div className="mt-4 flex flex-col sm:flex-row items-center max-w-fit md:max-w-none mx-auto w-100">
                             <a href={resume} download='DylanHarden.pdf'>

@@ -1,4 +1,6 @@
-const Footer = () => {
+interface FooterProps {}
+
+const Footer: React.FC<FooterProps> = () => {
   return (
     <footer className="w-full py-6 px-4 mt-auto">
       <div className="container mx-auto flex flex-col items-center justify-center gap-2 text-sm">

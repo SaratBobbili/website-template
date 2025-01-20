@@ -6,7 +6,9 @@ import WorkExperienceTimeline from './components/Experience'
 import ProjectsList from './components/Projects'
 import Footer from './components/Footer'
 
-function ThemeToggle() {
+interface ThemeToggleProps {}
+
+const ThemeToggle: React.FC<ThemeToggleProps> = () => {
   const { theme, setTheme } = useTheme()
 
   const toggleTheme = () => {
@@ -25,7 +27,9 @@ function ThemeToggle() {
   )
 }
 
-function App() {
+interface AppProps {}
+
+const App: React.FC<AppProps> = () => {
   return (
     <div className='bg-background text-foreground relative'>
       <div className="absolute top-4 right-4">
