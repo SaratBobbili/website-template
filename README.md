@@ -1,6 +1,5 @@
 # Personal Portfolio Website
 
-My personal portfolio website built with React, TypeScript, and Vite. Visit it at [dylan-harden3.github.io](https://dylan-harden3.github.io).
 
 ## Tech Stack
 
@@ -18,3 +17,7 @@ npm install
 # Run development server
 npm run dev
 ```
+
+
+Personal portfolio website template inspired by [dylan-harden3.github.io](https://dylan-harden3.github.io).
+
