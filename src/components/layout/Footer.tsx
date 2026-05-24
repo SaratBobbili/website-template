@@ -1,5 +1,5 @@
 import React from 'react';
-import { COMPANY_INFO, SOCIAL_LINKS } from '../../constants';
+import { COMPANY_INFO } from '../../constants';
 
 const Footer: React.FC = (): JSX.Element => {
   return (
@@ -8,7 +8,7 @@ const Footer: React.FC = (): JSX.Element => {
         <div className="flex items-center gap-2">
           <span>{COMPANY_INFO.COPYRIGHT_TEXT}</span>
           <span>•</span>
-          <span>Code released under <a className="underline" href={SOCIAL_LINKS.GITHUB_REPO} target="_blank" rel="noopener noreferrer">{COMPANY_INFO.LICENSE_TEXT}</a></span>
+          <span>{COMPANY_INFO.LICENSE_TEXT}</span>
         </div>
         <div className="flex items-center gap-2">
           <span>{COMPANY_INFO.DESIGN_CREDIT}</span>
