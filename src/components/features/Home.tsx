@@ -1,6 +1,5 @@
 import Header from '../layout/Header';
 import { Button } from '../common/ui/button';
-import resume from '../../assets/DylanHarden.pdf'
 
 const Home: React.FC = () => {
 
@@ -9,28 +8,34 @@ const Home: React.FC = () => {
             <section id="Home" className="h-screen">
                 <div className="section-container flex-col justify-center md:flex-row md:flex md:justify-between items-center pt-24 md:pt-32">
                     <div className="text-center md:text-left">
-                        <h4 className="text-xl sm:text-2xl">Howdy, my name is</h4>
-                        <Header text="Dylan Harden." />
+                        <h4 className="text-xl sm:text-2xl">Hi, my name is</h4>
+                        <Header text="SaratBobbili." />
                         <h4 className="text-center my-4 md:my-2 md:text-left text-xl sm:text-2xl lg:text-3xl lg:pb-4 max-w-[90%] sm:max-w-[70%] mx-auto md:mx-0">
-                            I'm a CS grad from Texas A&M who is interested in building real world AI systems.
+                            PhD student | RL & Agentic AI Systems.
                         </h4>
                         <div className="mt-4 flex flex-col sm:flex-row items-center max-w-fit md:max-w-none mx-auto w-100">
-                            <a href={resume} download='DylanHarden.pdf'>
+                            <a href='https://drive.google.com/file/d/1_TmE5uIu9ZQy0jeKiYxOViEG3sE_gqau/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
                                 <Button asChild className='w-36 h-10 sm:w-44 sm:h-12 text-md sm:text-xl'>
                                     <p>Resume</p>
                                 </Button>
                             </a>
                             <div className="flex gap-2 mt-2 sm:mt-0 sm:ml-8">
-                                <a className='w-100 h-100' href='https://www.linkedin.com/in/dylan-harden/' target='_blank'>
+                                <a className='w-100 h-100' href='https://www.linkedin.com/in/sarat-chandra-b-1ba5509a/' target='_blank'>
                                     <Button size="icon" variant="outline" aria-label="LinkedIn">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
                                     </Button>
                                 </a>
-                                <a href='https://github.com/Dylan-Harden3' target='_blank'>
+                                <a href='https://github.com/SaratBobbili' target='_blank'>
                                     <Button size="icon" variant="outline" aria-label="GitHub">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" /><path d="M9 18c-4.51 2-5-2-7-2" /></svg>
                                     </Button>
                                 </a>
+                                <a href='https://scholar.google.com/citations?user=t_pK3k8AAAAJ&hl=en&oi=ao' target='_blank' rel='noopener noreferrer'>
+                                    <Button size="icon" variant="outline" aria-label="Google Scholar">
+                                        <span className="text-xs font-semibold">GS</span>
+                                    </Button>
+                                </a>
+
                             </div>
                         </div>
                     </div>

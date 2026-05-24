@@ -138,7 +138,7 @@ const WorkExperienceTimeline: React.FC = () => {
             title: 'Software Engineer Intern',
             company: 'Samsung',
             details: [
-                '"Dylan did an excellent job, he accomplished a lot and closed many tickets in a short amount of time." - Staff Engineer',
+                '"Sarat did an excellent job, he accomplished a lot and closed many tickets in a short amount of time." - Staff Engineer',
             ],
             skills: [
                 { name: 'Python', icon: 'python' },
@@ -154,7 +154,7 @@ const WorkExperienceTimeline: React.FC = () => {
             title: 'Software Engineer Intern',
             company: 'Resideo',
             details: [
-                '"Dylan\'s quick grasp of new technologies, strong teamwork, and commitment to completing tasks make him a valuable addition to any team. His punctuality, communication skills, and initiative set him apart. ... I\'m confident he\'ll excel in any future endeavors." - Senior Engineer',
+                '"Sarat\'s quick grasp of new technologies, strong teamwork, and commitment to completing tasks make him a valuable addition to any team. His punctuality, communication skills, and initiative set him apart. ... I\'m confident he\'ll excel in any future endeavors." - Senior Engineer',
             ],
             skills: [
                 { name: '.NET', icon: 'dotnet' },
@@ -170,7 +170,7 @@ const WorkExperienceTimeline: React.FC = () => {
             title: 'Software Engineer Intern',
             company: 'Charles Schwab',
             details: [
-                '"Dylan did a great job working on this. He worked independently, followed good engineering practices, and delivered clean code in a timely manner. ... He is a solid engineer, a motivated individual, and a great team player." - My Manager',
+                '"Sarat did a great job working on this. He worked independently, followed good engineering practices, and delivered clean code in a timely manner. ... He is a solid engineer, a motivated individual, and a great team player." - My Manager',
             ],
             skills: [
                 { name: '.NET', icon: 'dotnet' },
@@ -186,7 +186,7 @@ const WorkExperienceTimeline: React.FC = () => {
             date: '2023 - 2025',
             logo: tamu,
             title: 'Master of Computer Science',
-            company: 'Texas A&M University',
+            company: 'University',
             details: [
                 'Courses: Machine Learning, Deep Learning, Reinforcement Learning, Large Language Models, Trustworthy NLP, Computer Vision',
                 'GPA: 3.75'
@@ -196,7 +196,7 @@ const WorkExperienceTimeline: React.FC = () => {
             date: '2019 - 2023',
             logo: tamu,
             title: 'Bachelor of Science in Computer Science',
-            company: 'Texas A&M University',
+            company: 'University',
             details: [
                 'Courses: SR Capstone Design, Competitive Programming, Software Engineering, Computer Graphics, Computer & Network Security',
                 'GPA: 3.53'
